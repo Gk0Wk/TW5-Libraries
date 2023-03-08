@@ -9,9 +9,9 @@ const files: [string, string, string, string][] = [
   ],
   [
     'node_modules/jquery/dist/jquery.min.js',
-    'src/jQuery/jquery.min.js',
+    'src/jquery/jquery.min.js',
     'node_modules/jquery/package.json',
-    'src/jQuery/plugin.info',
+    'src/jquery/plugin.info',
   ],
   [
     'node_modules/axios/dist/axios.min.js',
