@@ -7,6 +7,6 @@
     "types": ["node", "tw5-typed"],
     "lib": ["DOM", "ESNext"]
   },
-  "include": ["src"],
+  "include": ["src", "copy.ts"],
   "exclude": ["./**/*.js"]
 }

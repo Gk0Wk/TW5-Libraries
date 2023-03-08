@@ -1,0 +1,17 @@
+title: $:/plugins/Gk0Wk/axios/readme
+
+[[Axios|https://axios-http.com/]] is a popular promise-based HTTP client for making asynchronous HTTP requests in JavaScript. It works on both the client and server-side environments and can be used to communicate with any back-end or API that exposes an HTTP interface. Axios supports a wide range of features such as interceptors, request cancellation, automatic transformation of JSON data, support for different types of responses (JSON, XML, Buffer), and more. Overall, it provides an easy-to-use and powerful interface for handling HTTP requests and responses.
+
+Usage:
+
+```
+const axios = require('$:/plugins/Gk0Wk/axios/axios.min.js');
+```
+
+Then, if you use [[Tiddly.ModernDev|https://github.com/tiddly-gittly/Modern.TiddlyDev]]:
+
+```
+import axios from '$:/plugins/Gk0Wk/axios/axios.min.js';
+```
+
+> This plugin uses the flexible and powerful <$text text="TiddlyWiki" /> development framework [[Tiddly.ModernDev|https://github.com/tiddly-gittly/Modern.TiddlyDev]]

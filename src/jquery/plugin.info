@@ -1,0 +1,11 @@
+{
+  "version": "3.6.3",
+  "type": "application/json",
+  "title": "$:/plugins/Gk0Wk/jquery",
+  "plugin-type": "plugin",
+  "name": "jQuery",
+  "list": "readme",
+  "description": "jquery for TiddlyWiki5",
+  "author": "Gk0Wk",
+  "source": "https://github.com/Gk0Wk/TW5-Libraries/tree/master/src/jquery"
+}

@@ -1,0 +1,11 @@
+{
+  "version": "1.3.4",
+  "type": "application/json",
+  "title": "$:/plugins/Gk0Wk/axios",
+  "plugin-type": "plugin",
+  "name": "axios",
+  "list": "readme",
+  "description": "axios for TiddlyWiki5",
+  "author": "Gk0Wk",
+  "source": "https://github.com/Gk0Wk/TW5-Libraries/tree/master/src/axios"
+}

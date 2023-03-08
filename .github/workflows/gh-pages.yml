@@ -1,6 +1,8 @@
 name: Deploy Tiddlywiki To Github Pages
 
 on:
+  schedule:
+    - cron: '0 0,12 * * *'
   push:
     branches:
       - master
@@ -37,7 +39,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Dependencies
-        run: npm install -g pnpm && pnpm install
+        run: npm install -g pnpm && pnpm install && pnpm run update && pnpm install
 
       - name: Build Library and static website
         run: pnpm run publish

@@ -1,0 +1,17 @@
+title: $:/plugins/Gk0Wk/jquery/readme
+
+[[lodash.js|https://lodash.com/]] is modern JavaScript utility library delivering modularity, performance & extras.
+
+Usage:
+
+```
+const { debounce } = require('$:/plugins/Gk0Wk/lodash/lodash.min.js');
+```
+
+Then, if you use [[Tiddly.ModernDev|https://github.com/tiddly-gittly/Modern.TiddlyDev]]:
+
+```
+import { debounce } from '$:/plugins/Gk0Wk/lodash/lodash.min.js';
+```
+
+> This plugin uses the flexible and powerful <$text text="TiddlyWiki" /> development framework [[Tiddly.ModernDev|https://github.com/tiddly-gittly/Modern.TiddlyDev]]
