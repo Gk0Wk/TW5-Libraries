@@ -37,7 +37,7 @@ jobs:
             ${{ runner.os }}-node-
 
       - name: Install Dependencies
-        run: npm install -g pnpm && pnpm install && pnpm run update && pnpm install
+        run: npm install -g pnpm && pnpm install && pnpm run update && rm pnpm-lock.yaml && pnpm install
 
       - name: Build Library and static website
         run: pnpm run publish
