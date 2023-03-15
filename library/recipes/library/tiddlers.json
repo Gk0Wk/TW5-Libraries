@@ -15,7 +15,7 @@
         "requires-reload": "yes"
     },
     {
-        "version": "3.6.3",
+        "version": "3.6.4",
         "type": "application/json",
         "title": "$:/plugins/Gk0Wk/jquery",
         "plugin-type": "plugin",
@@ -25,7 +25,7 @@
         "author": "Gk0Wk",
         "source": "https://github.com/Gk0Wk/TW5-Libraries/tree/master/src/jquery",
         "dependents": "",
-        "Modern.TiddlyDev#SHA256-Hashed": "89f57c5938bf659b3761e2bfd2a508e7c6dd33f832b188525490ae52369a4ebf",
+        "Modern.TiddlyDev#SHA256-Hashed": "e4c80430d551adae2c465a447f7fb6c7873a50a8d3b7beb3e5f19432fa1c8370",
         "readme": "[[jQuery|https://jquery.com/]] is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.\n\nUsage:\n\n```\nconst $ = require('$:/plugins/Gk0Wk/jquery/jquery.min.js');\n```\n\nThen, if you use [[Tiddly.ModernDev|https://github.com/tiddly-gittly/Modern.TiddlyDev]]:\n\n```\nimport $ from '$:/plugins/Gk0Wk/jquery/jquery.min.js';\n```\n\n> This plugin uses the flexible and powerful <$text text=\"TiddlyWiki\" /> development framework [[Tiddly.ModernDev|https://github.com/tiddly-gittly/Modern.TiddlyDev]]\n",
         "requires-reload": "yes"
     },
